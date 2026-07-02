@@ -1,0 +1,227 @@
+console.log("Novora is running");
+.card{
+    background:#1c1c1c;
+    padding:15px;
+    border-radius:12px;
+    width:180px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+.card p{
+    color:#aaa;
+}
+
+button{
+    background:#d4af37;
+    border:none;
+    padding:8px 15px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:10px;
+}
+.cart{
+    margin-top:30px;
+    padding:20px;
+    background:#111;
+    border-top:1px solid #333;
+}
+
+.cart h2{
+    text-align:center;
+    color:#d4af37;
+}
+
+#cart-list{
+    list-style:none;
+    padding:0;
+    text-align:center;
+}
+
+#cart-list li{
+    padding:8px;
+    color:#ddd;
+    border-bottom:1px solid #222;
+}
+#cart-list li button{
+    margin-right:10px;
+    background:red;
+    color:white;
+    border:none;
+    padding:3px 8px;
+    border-radius:5px;
+    cursor:pointer;
+}
+.search-box{
+    text-align:center;
+    margin:20px 0;
+}
+
+.search-box input{
+    width:80%;
+    max-width:300px;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    outline:none;
+}
+.categories{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin:10px 0 20px 0;
+    flex-wrap:wrap;
+}
+
+.categories button{
+    background:#222;
+    color:white;
+    border:1px solid #444;
+    padding:8px 12px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.categories button:hover{
+    background:#d4af37;
+    color:black;
+}
+.wishlist{
+    margin-top:20px;
+    padding:20px;
+    background:#0f0f0f;
+    border-top:1px solid #333;
+    text-align:center;
+}
+.auth{
+    text-align:center;
+    margin:15px 0;
+}
+
+.auth input{
+    padding:8px;
+    border-radius:8px;
+    border:none;
+    outline:none;
+    width:60%;
+    max-width:200px;
+}
+
+.auth button{
+    padding:8px 12px;
+    border:none;
+    border-radius:8px;
+    background:#d4af37;
+    cursor:pointer;
+}
+.checkout{
+    text-align:center;
+    margin-top:15px;
+}
+
+.checkout button{
+    background:#d4af37;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#checkout-msg{
+    margin-top:10px;
+    color:lightgreen;
+}
+body{
+    margin:0;
+    font-family:sans-serif;
+    background:#0d0d0d;
+    color:white;
+}
+.header{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.header h1{
+    color:#d4af37;
+    font-size:48px;
+    margin:0;
+}
+
+.header p{
+    color:#aaa;
+}
+.products{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.card{
+    background:linear-gradient(145deg,#1a1a1a,#111);
+    padding:15px;
+    border-radius:15px;
+    width:180px;
+    text-align:center;
+    transition:0.3s;
+    box-shadow:0 0 10px rgba(0,0,0,0.6);
+}
+
+.card:hover{
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.9);
+}
+}
+
+.card h3{
+    cursor:pointer;
+}
+
+.card p{
+    color:#bbb;
+    .card{
+    animation: fadeUp 0.4s ease;
+}
+}
+button{
+    background:#d4af37;
+    border:none;
+    padding:8px 12px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#b8922f;
+    transform:scale(1.05);
+}
+.cart{
+    margin-top:30px;
+    padding:20px;
+    border-top:1px solid #222;
+    text-align:center;
+}
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+button{
+    transition: all 0.2s ease;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>محصول | Novora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+loadProductPage();
+</script>
+<body>
+
+    <div class="product-page">
+        <h1 id="pname"></h1>
+        <p id="pprice"></p>
+
+        div.innerHTML = `
+    <h3 onclick="openProduct('${p.name}', ${p.price})" style="cursor:pointer">
+        ${p.name}
+    </h3>
+    <p>${p.price.toLocaleString()} تومان</p>
+    <button onclick="addToCart('${p.name}', ${p.price})">خرید</button>
+`;
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<div class="card">
+    <h3 onclick="openProduct('${p.name}', ${p.price})" style="cursor:pointer">
+        ${p.name}
+    </h3>
+
+    <p>${p.price.toLocaleString()} تومان</p>
+
+    <button onclick="addToCart('${p.name}', ${p.price})">خرید</button>
+
+    <button onclick="addToWishlist('${p.name}', ${p.price})">❤️</button>
+</div>
